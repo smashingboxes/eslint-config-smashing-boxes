@@ -14,9 +14,15 @@ Once the `eslint-config-smashing-boxes` package is installed, you can use it by 
 
 ```js
 {
-  "extends": "smashing-boxes",
+  "extends": "smashing-boxes", // Or "eslint-config-smashing-boxes"
   "rules": {
-    // Additional, per-project rules...
+
+    /**
+     * Additional, per-project rules can go here.
+     * These rules will override the rules in
+     * "eslint-config-smashing-boxes"
+     */
+
   }
 }
 ```
