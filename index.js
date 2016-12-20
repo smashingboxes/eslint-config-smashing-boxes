@@ -18,7 +18,12 @@ module.exports = {
      * http://eslint.org/docs/rules/#possible-errors
      */
     "no-await-in-loop": "off",                                                    // http://eslint.org/docs/rules/no-await-in-loop
-
+    "no-cond-assign": ["error", "always"],                                        // http://eslint.org/docs/rules/no-cond-assign
+    "no-console": "warn",                                                         // http://eslint.org/docs/rules/no-console
+    "no-constant-condition": "warn",                                              // http://eslint.org/docs/rules/no-constant-condition
+    "no-control-regex": "off",                                                    // http://eslint.org/docs/rules/no-control-regex
+    "no-debugger": "warn",                                                        // http://eslint.org/docs/rules/no-debugger
+    
 
     /**
      * Best Practices
