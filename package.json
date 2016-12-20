@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-smashing-boxes",
+  "version": "1.0.0",
+  "description": "ESLint shareable configuration file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smashingboxes/eslint-config-smashing-boxes.git"
+  },
+  "author": "Smashing Boxes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smashingboxes/eslint-config-smashing-boxes/issues"
+  },
+  "homepage": "https://github.com/smashingboxes/eslint-config-smashing-boxes#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
