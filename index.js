@@ -10,7 +10,6 @@
  */
 
 module.exports = {
-
   "rules": {
 
     /**
@@ -268,8 +267,36 @@ module.exports = {
      * ECMAScript 6
      * http://eslint.org/docs/rules/#ecmascript-6
      */
-    "arrow-body-style": ["error", "as-needed"]                                   // http://eslint.org/docs/rules/arrow-body-style
+    "arrow-body-style": "off",                                                    // http://eslint.org/docs/rules/arrow-body-style
+    "arrow-parens": "off",                                                        // http://eslint.org/docs/rules/arrow-parens
+    "arrow-spacing": "error",                                                     // http://eslint.org/docs/rules/arrow-spacing
+    "constructor-super": "error",                                                 // http://eslint.org/docs/rules/constructor-super
+    "generator-star-spacing": "error",                                            // http://eslint.org/docs/rules/generator-star-spacing
+    "no-class-assign": "error",                                                   // http://eslint.org/docs/rules/no-class-assign
+    "no-confusing-arrow": "error",                                                // http://eslint.org/docs/rules/no-confusing-arrow
+    "no-const-assign": "error",                                                   // http://eslint.org/docs/rules/no-const-assign
+    "no-dupe-class-members": "error",                                             // http://eslint.org/docs/rules/no-dupe-class-members
+    "no-duplicate-imports": "error",                                              // http://eslint.org/docs/rules/no-duplicate-imports
+    "no-new-symbol": "error",                                                     // http://eslint.org/docs/rules/no-new-symbol
+    "no-restricted-imports": "off",                                               // http://eslint.org/docs/rules/no-restricted-imports
+    "no-this-before-super": "error",                                              // http://eslint.org/docs/rules/no-this-before-super
+    "no-useless-computed-key": "error",                                           // http://eslint.org/docs/rules/no-useless-computed-key
+    "no-useless-constructor": "error",                                            // http://eslint.org/docs/rules/no-useless-constructor
+    "no-useless-rename": "error",                                                 // http://eslint.org/docs/rules/no-useless-rename
+    "no-var": "error",                                                            // http://eslint.org/docs/rules/no-var
+    "object-shorthand": "error",                                                  // http://eslint.org/docs/rules/object-shorthand
+    "prefer-arrow-callback": "off",                                               // http://eslint.org/docs/rules/prefer-arrow-callback
+    "prefer-const": "error",                                                      // http://eslint.org/docs/rules/prefer-const
+    "prefer-numeric-literals": "off",                                             // http://eslint.org/docs/rules/prefer-numeric-literals
+    "prefer-rest-params": "error",                                                // http://eslint.org/docs/rules/prefer-rest-params
+    "prefer-spread": "error",                                                     // http://eslint.org/docs/rules/prefer-spread
+    "prefer-template": "error",                                                   // http://eslint.org/docs/rules/prefer-template
+    "require-yield": "error",                                                     // http://eslint.org/docs/rules/require-yield
+    "rest-spread-spacing": "error",                                               // http://eslint.org/docs/rules/rest-spread-spacing
+    "sort-imports": "off",                                                        // http://eslint.org/docs/rules/sort-imports
+    "symbol-description": "off",                                                  // http://eslint.org/docs/rules/symbol-description
+    "template-curly-spacing": "error",                                            // http://eslint.org/docs/rules/template-curly-spacing
+    "yield-star-spacing": "error",                                                // http://eslint.org/docs/rules/yield-star-spacing
 
   }
-
 };
