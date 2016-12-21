@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-Coming soon
+npm install --save-dev eslint eslint-config-smashing-boxes
 ```
 
 ## Usage
@@ -27,4 +27,6 @@ Once the `eslint-config-smashing-boxes` package is installed, you can use it by 
 }
 ```
 
-More to be filled in later
+## License
+
+MIT
