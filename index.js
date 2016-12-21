@@ -128,14 +128,13 @@ module.exports = {
      */
     "strict": "off",                                                              // http://eslint.org/docs/rules/strict
 
-
     /**
      * Variables
      * http://eslint.org/docs/rules/#variables
      */
     "init-declarations": "off",                                                   // http://eslint.org/docs/rules/init-declarations
     "no-catch-shadow": "off",                                                     // http://eslint.org/docs/rules/no-catch-shadow
-    "no-delete-var": "error",                                                     // http://eslint.org/docs/rules/no-delete-var
+    "no-delete-var": "off",                                                       // http://eslint.org/docs/rules/no-delete-var
     "no-label-var": "off",                                                        // http://eslint.org/docs/rules/no-label-var
     "no-restricted-globals": "off",                                               // http://eslint.org/docs/rules/no-restricted-globals
     "no-shadow-restricted-names": "error",                                        // http://eslint.org/docs/rules/no-shadow-restricted-names
@@ -153,8 +152,16 @@ module.exports = {
      * Node.js and CommonJS
      * http://eslint.org/docs/rules/#nodejs-and-commonjs
      */
-
-
+    "callback-return": "off",                                                     // http://eslint.org/docs/rules/callback-return
+    "global-require": "off",                                                      // http://eslint.org/docs/rules/global-require
+    "handle-callback-err": "warn",                                                // http://eslint.org/docs/rules/handle-callback-err
+    "no-mixed-requires": "off",                                                   // http://eslint.org/docs/rules/no-mixed-requires
+    "no-new-require": "error",                                                    // http://eslint.org/docs/rules/no-new-require
+    "no-path-concat": "error",                                                    // http://eslint.org/docs/rules/no-path-concat
+    "no-process-env": "off",                                                      // http://eslint.org/docs/rules/no-process-env
+    "no-process-exit": "off",                                                     // http://eslint.org/docs/rules/no-process-exit
+    "no-restricted-modules": "off",                                               // http://eslint.org/docs/rules/no-restricted-modules
+    "no-sync": "warn",                                                            // http://eslint.org/docs/rules/no-sync
 
     /**
      * Stylistic Issues
