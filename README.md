@@ -10,7 +10,7 @@ npm install --save-dev eslint eslint-config-smashing-boxes
 
 ## Usage
 
-Once the `eslint-config-smashing-boxes` package is installed, you can use it by specifying `smashing-boxes` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
+Once the `eslint-config-smashing-boxes` package is installed, you can use it by specifying `smashing-boxes` or `eslint-config-smashing-boxes` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 
 ```js
 {
