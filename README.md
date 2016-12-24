@@ -29,7 +29,26 @@ Once the `eslint-config-smashing-boxes` package is installed, you can use it by 
 
 ### React
 
-For usage in a React project, change the `"extends"` value to `"extends": "smashing-boxes/react"`
+For usage in a React project you will need to install the `eslint-plugin-react`:
+
+```
+npm install --save-dev eslint-plugin-react
+```
+
+Change the `"extends"` value to `"extends": "smashing-boxes/react"` or `"extends": "eslint-config-smashing-boxes/react"`
+
+```js
+{
+  "extends": "smashing-boxes/react", // Or "eslint-config-smashing-boxes/react"
+  "rules": {
+
+    /**
+     * Additional, per-project rules can go here.
+     * These rules will override the rules in
+     * "eslint-config-smashing-boxes"
+     */
+
+```
 
 ## License
 
