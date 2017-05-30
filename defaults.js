@@ -189,7 +189,7 @@ module.exports = {
     "id-blacklist": "off",                                            // http://eslint.org/docs/rules/id-blacklist
     "id-length": "off",                                               // http://eslint.org/docs/rules/id-length
     "id-match": "off",                                                // http://eslint.org/docs/rules/id-match
-    "indent": ["error", 2],                                           // http://eslint.org/docs/rules/indent
+    "indent": ["error", 2, { "SwitchCase": 1 }],                      // http://eslint.org/docs/rules/indent
     "jsx-quotes": "error",                                            // http://eslint.org/docs/rules/jsx-quotes
     "key-spacing": "error",                                           // http://eslint.org/docs/rules/key-spacing
     "keyword-spacing": "error",                                       // http://eslint.org/docs/rules/keyword-spacing
@@ -298,7 +298,6 @@ module.exports = {
     "sort-imports": "off",                                            // http://eslint.org/docs/rules/sort-imports
     "symbol-description": "off",                                      // http://eslint.org/docs/rules/symbol-description
     "template-curly-spacing": "error",                                // http://eslint.org/docs/rules/template-curly-spacing
-    "yield-star-spacing": "error",                                    // http://eslint.org/docs/rules/yield-star-spacing
-
+    "yield-star-spacing": "error"                                     // http://eslint.org/docs/rules/yield-star-spacing
   }
 };
