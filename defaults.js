@@ -206,7 +206,8 @@ module.exports = {
     "max-statements": "off",                                          // http://eslint.org/docs/rules/max-statements
     "multiline-ternary": "off",                                       // http://eslint.org/docs/rules/multiline-ternary
     "new-cap": ["error", {                                            // http://eslint.org/docs/rules/new-cap
-      "capIsNewExceptionPattern" : "^Immutable\\.."
+      "capIsNewExceptionPattern" : "^Immutable\\..",
+      "newIsCap": true
     }],
     "new-parens": "error",                                            // http://eslint.org/docs/rules/new-parens
     "newline-after-var": "off",                                       // http://eslint.org/docs/rules/newline-after-var
