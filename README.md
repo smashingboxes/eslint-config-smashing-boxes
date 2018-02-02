@@ -1,4 +1,4 @@
-# eslint-config-smashing-boxes
+# eslint-config-smashing-boxes [![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/eslint-config-smashing-boxes)
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for Smashing Boxes' JavaScript Style Guide
 
