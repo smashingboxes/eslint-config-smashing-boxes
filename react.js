@@ -50,6 +50,11 @@ module.exports = {
     "react/jsx-no-duplicate-props": "error",                  // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
     "react/jsx-no-undef": "error",                            // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
     "react/jsx-pascal-case": "error",                         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
+    "react/jsx-sort-props": ["error", {                       // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
+      "callbacksLast": true,
+      "ignoreCase": true,
+      "reservedFirst": true
+    }],
     "react/jsx-space-before-closing": ["error", "always"],    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
     "react/jsx-uses-react": "error",                          // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
     "react/jsx-uses-vars":"error",                            // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
